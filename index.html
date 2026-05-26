@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Béatrice Phung Portfolio</title>
+    <title>Beatrice Phung Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,8 @@
       <nav>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
-        <a href="#gallery">Photos</a>
+        <a href="#projects">Projects</a>
+        <a href="#posts">Posts</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -35,27 +36,26 @@
 
         <div class="hero-shell reveal">
           <div class="window-bar">
-            <span>BÉATRICE PHUNG'S PORTFOLIO.EXE</span>
-            <span class="window-actions" aria-hidden="true">○ ○</span>
+            <span>BEATRICE PHUNG'S PORTFOLIO.EXE</span>
+            <span class="window-actions" aria-hidden="true">o o</span>
           </div>
           <div class="hero-grid">
             <figure class="portrait-window">
               <div class="window-title">Digital Me</div>
-              <div class="portrait-placeholder" role="img" aria-label="Portrait photo placeholder">
-                <span>Portrait</span>
-              </div>
+              <img class="portrait-image" src="assets/port.png" alt="Pixel portrait of Beatrice" />
             </figure>
 
             <div class="hero-copy">
-              <p class="eyebrow">Bioinformatics student moving toward data engineering</p>
-              <h1>Béatrice Phung</h1>
+              <p class="eyebrow">Aspiring data engineer</p>
+              <h1>Beatrice Phung</h1>
               <p>
-                Building a foundation in data, programming, and healthcare operations through
-                bioinformatics studies, pharmacy work, and student leadership.
+                Building reliable data pipelines, analytical workflows, and healthcare-informed
+                systems through bioinformatics, research, and technical pharmacy experience.
               </p>
               <div class="hero-actions">
-                <a class="button primary" href="mailto:beatrice.nha.chi.phung@umontreal.ca">Email</a>
+                <span class="button primary">beatrice.nha.chi.phung@umontreal.ca</span>
                 <a class="button ghost" href="#experience">View work</a>
+                <a class="button ghost" href="https://www.linkedin.com/in/beaphung" target="_blank" rel="noreferrer">LinkedIn</a>
               </div>
             </div>
           </div>
@@ -66,13 +66,13 @@
         <div class="section-window reveal">
           <div class="window-bar">
             <span>INSTALLED PROGRAMS</span>
-            <span class="window-actions" aria-hidden="true">○ ○</span>
+            <span class="window-actions" aria-hidden="true">o o</span>
           </div>
           <div class="program-grid">
             <article class="mini-window">
               <h2>Education</h2>
-              <p><strong>Université de Montréal</strong></p>
-              <p>BAC in Bioinformatics, expected December 2026</p>
+              <p><strong>University of Montreal</strong></p>
+              <p>BSc in Bioinformatics, expected December 2026</p>
               <p><strong>Champlain College Saint-Lambert</strong></p>
               <p>DEC in Health Science, June 2023</p>
             </article>
@@ -81,16 +81,19 @@
               <h2>Data Toolkit</h2>
               <ul class="meter-list">
                 <li><span>Python</span><i style="--level: 88%"></i></li>
+                <li><span>SQL</span><i style="--level: 78%"></i></li>
                 <li><span>R</span><i style="--level: 76%"></i></li>
                 <li><span>Data analysis</span><i style="--level: 82%"></i></li>
-                <li><span>Databases</span><i style="--level: 70%"></i></li>
               </ul>
             </article>
 
             <article class="mini-window wide">
               <h2>Languages + Tools</h2>
               <div class="tag-cloud">
+                <span>Python</span>
+                <span>SQL</span>
                 <span>Java</span>
+                <span>Bash</span>
                 <span>Matlab</span>
                 <span>HTML</span>
                 <span>CSS</span>
@@ -98,21 +101,13 @@
                 <span>JSON</span>
                 <span>XML</span>
                 <span>Git/GitHub</span>
+                <span>LinkedIn</span>
                 <span>Microsoft Office</span>
-                <span>French</span>
                 <span>English</span>
                 <span>Vietnamese</span>
               </div>
             </article>
 
-            <article class="mini-window about-window">
-              <h2>About Me</h2>
-              <p>
-                Béatrice connects scientific coursework with practical healthcare experience.
-                Her next step is data engineering: structuring reliable datasets, improving
-                workflows, and turning complex information into useful systems.
-              </p>
-            </article>
           </div>
         </div>
       </section>
@@ -125,9 +120,20 @@
 
         <div class="timeline">
           <article class="timeline-item reveal">
+            <div class="date">05/2026 - Present</div>
+            <div>
+              <h3>Research Intern, Tanaka Lab at Maisonneuve-Rosemont Hospital</h3>
+              <p>
+                Builds Python and Bash pipelines for ChIP-seq peak datasets, metadata validation,
+                BED processing, motif enrichment, pathway analysis, and documented audit tables.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
             <div class="date">05/2025 - Present</div>
             <div>
-              <h3>Pharmacy Technical Assistant, Hôpital Pierre-Boucher</h3>
+              <h3>Pharmacy Technical Assistant, Pierre-Boucher Hospital</h3>
               <p>
                 Supports pharmacists through aseptic technique, established protocols,
                 medication preparation, inventory documentation, and traceability.
@@ -138,7 +144,7 @@
           <article class="timeline-item reveal">
             <div class="date">11/2024 - Present</div>
             <div>
-              <h3>Math, Science, and English Tutor, Succès Scolaire</h3>
+              <h3>Math, Science, and English Tutor, Succes Scolaire</h3>
               <p>
                 Guides students with personalized sessions, clear explanations, and trust-based
                 communication with families.
@@ -170,28 +176,113 @@
         </div>
       </section>
 
-      <section class="gallery-section" id="gallery">
+      <section class="projects-section" id="projects">
         <div class="section-heading reveal">
-          <p class="eyebrow">Photo placeholders</p>
-          <h2>Ready for real portfolio images.</h2>
+          <p class="eyebrow">Projects</p>
+          <h2>Data products built around pipelines, APIs, and useful outputs.</h2>
         </div>
-        <div class="photo-grid">
-          <figure class="photo-frame reveal">
-            <div class="placeholder-art dataset"></div>
-            <figcaption>Data project screenshot</figcaption>
-          </figure>
-          <figure class="photo-frame reveal">
-            <div class="placeholder-art lab"></div>
-            <figcaption>Bioinformatics or lab moment</figcaption>
-          </figure>
-          <figure class="photo-frame reveal">
-            <div class="placeholder-art portrait-alt"></div>
-            <figcaption>Professional portrait</figcaption>
-          </figure>
-          <figure class="photo-frame reveal">
-            <div class="placeholder-art community"></div>
-            <figcaption>Community or dance leadership</figcaption>
-          </figure>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <h3>Thornmail</h3>
+            <p class="project-stack">Python, Pandas, FastAPI, Ollama</p>
+            <p>
+              Engineered a local-first SOC triage system that transforms raw security logs into
+              structured, risk-scored incident cases with analytical metrics and case narratives.
+            </p>
+          </article>
+          <article class="project-card reveal">
+            <h3>Oriento</h3>
+            <p class="project-stack">Java, Javalin, Maven</p>
+            <p>
+              Built a REST API layer for a university course-planning platform, including JSON
+              deserialization, course search, filtering, schedule retrieval, and enriched responses.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="posts-section" id="posts">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Posts</p>
+          <h2>Moments from cybersecurity, hackathons, and student learning.</h2>
+        </div>
+
+        <div class="post-feed">
+          <article class="post-window reveal">
+            <div class="window-bar">
+              <span>RSAC.EXPERIENCE</span>
+              <span class="window-actions" aria-hidden="true">o o</span>
+            </div>
+            <div class="post-layout">
+              <div class="post-images four-up" aria-label="RSAC photo set">
+                <img src="assets/1774480529053.jfif" alt="Beatrice and classmates outside RSAC" />
+                <img src="assets/1774480531044.jfif" alt="Crowd at the RSAC conference floor" />
+                <img src="assets/1774480531839.jfif" alt="Students trying a cybersecurity challenge at RSAC" />
+                <img src="assets/1774480530467.jfif" alt="Students sharing a meal during the RSAC trip" />
+              </div>
+              <div class="post-copy">
+                <h3>RSAC student experience</h3>
+                <p>
+                  Attending RSAC as a university student was honestly one of those experiences
+                  that puts everything into perspective.
+                </p>
+                <p>
+                  You go from learning concepts in class to suddenly being surrounded by people
+                  actually building, breaking, and defending real systems at scale. It made
+                  everything feel a lot more real and showed me how much there still is to learn.
+                </p>
+                <p>
+                  I got to explore new ideas, talk to people in the field, and challenge myself
+                  through security games and real-world scenarios. It pushed me out of my comfort
+                  zone in a new city.
+                </p>
+                <p>
+                  Grateful for the opportunity and excited for what's ahead. Huge thank you to
+                  D3 Security for making this possible.
+                </p>
+                <p class="post-tags">#RSAC #Cybersecurity #StudentJourney #Learning #Grateful</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-window reveal">
+            <div class="window-bar">
+              <span>CONUHACKS.WIN</span>
+              <span class="window-actions" aria-hidden="true">o o</span>
+            </div>
+            <div class="post-layout reverse">
+              <div class="post-images three-up" aria-label="ConUHacks photo set">
+                <img src="assets/2/1770079652469.jfif" alt="ConUHacks Thornmail team photo" />
+                <img src="assets/2/1770079653388.jfif" alt="D3 Security challenge winner screen for Thornmail" />
+                <img src="assets/2/1770079652385.jfif" alt="ConUHacks stickers on a laptop" />
+              </div>
+              <div class="post-copy">
+                <h3>1st Place at ConUHacks 2026</h3>
+                <p>
+                  Grateful to win 1st Place at ConUHacks 2026 - D3 Security Challenge on
+                  January 24, 2026.
+                </p>
+                <p>
+                  I had an amazing time competing with my team. The experience at Concordia was
+                  challenging and rewarding, and it pushed us to think creatively and work together
+                  under pressure.
+                </p>
+                <p>
+                  Even with the freezing weather (-30 C was way too cold), the energy and support
+                  from everyone made it unforgettable.
+                </p>
+                <p>
+                  Huge thank you to Amy Tom for judging and feedback, to D3 Security for sponsoring
+                  the challenge, and to HackConcordia for hosting such an amazing event.
+                </p>
+                <p>
+                  Big shoutout to my teammates: Olivier Tran, Emilie Khaled-Khodja, and Beatrice
+                  Phung. Proud of the team and excited to keep growing in cybersecurity and tech.
+                </p>
+                <p class="post-tags">#ConUHacks #D3Security #Hackathon #Cybersecurity #Teamwork #Montreal</p>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -199,13 +290,17 @@
         <div class="contact-window reveal">
           <div class="window-bar">
             <span>CONNECT.EXE</span>
-            <span class="window-actions" aria-hidden="true">○ ○</span>
+            <span class="window-actions" aria-hidden="true">o o</span>
           </div>
           <div class="contact-content">
-            <h2>Let’s build useful data systems.</h2>
+            <h2>Let's build useful data systems.</h2>
             <p>Open to internships and early data engineering opportunities.</p>
-            <a href="mailto:beatrice.nha.chi.phung@umontreal.ca">beatrice.nha.chi.phung@umontreal.ca</a>
+            <span>beatrice.nha.chi.phung@umontreal.ca</span>
             <span>438-922-9113</span>
+            <div class="contact-links" aria-label="Profile links">
+              <a href="https://www.linkedin.com/in/beaphung" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://meuhcow.github.io/Portfolio/" target="_blank" rel="noreferrer">GitHub Portfolio</a>
+            </div>
           </div>
         </div>
       </section>

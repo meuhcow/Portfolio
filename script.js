@@ -16,4 +16,3 @@ revealItems.forEach((item, index) => {
   item.style.animationDelay = `${Math.min(index * 45, 220)}ms`;
   observer.observe(item);
 });
-
